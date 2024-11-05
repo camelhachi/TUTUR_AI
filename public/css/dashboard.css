@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+
+}
+
+body {
+    justify-content: center;
+    justify-self: center;
+}
+
+
+/* content */
+.container {
+    height: 780px;
+    width: 100%;
+    align-content: center;
+    background-color: #FFFFFD;
+    display: flex;
+    justify-content: center;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1050px;
+    gap: 50px;
+    margin-top: 30px;
+    /* background-color: #18514A; */
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header .text {
+    font-size: 24px;
+}
+
+.headder h2 {
+    font-weight: 900;
+}
+
+.progress .task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress .lesson {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress h3 {
+    color: #18514A;
+    font-size: 24px;
+}
+
+.content1 img {
+    width: 700px;
+}
+
+.lesson-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lesson-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #DDE4DD;
+}
+
+.card-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 10px 10px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 0px 0px #000;
+    margin-left: -1px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 3px;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.status .text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-content h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card-content p {
+    font-size: 12px;
+}
+
+.table-warning {
+    font-size: 10px;
+    color: gray;
+}
+
+.table-success {
+    font-size: 10px;
+    color: #18514A;
+}
+
+
+.bawah button {
+    margin-left: 175px;
+}
+
+.cardtwo {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #FCE9D8;
+}
+
+.cardthree {
+    position: relative;
+    width: 310px;
+    height: 310px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #CCDCF6;
+}
