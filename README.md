@@ -1,6 +1,7 @@
 # TUTUR-AI
 
-![image](https://github.com/user-attachments/assets/2708637a-ba83-44d1-9adb-c9273e7b85ed)
+![WhatsApp Image 2024-11-05 at 22 12 01_1776c481](https://github.com/user-attachments/assets/ebd0ce13-a273-4274-8710-62eeb7769884)
+
 
 
 
